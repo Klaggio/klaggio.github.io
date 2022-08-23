@@ -39,6 +39,6 @@ jobs:
           path: '.'
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v1/web
+        uses: actions/deploy-pages@v1
         with:
           folder: build/web
